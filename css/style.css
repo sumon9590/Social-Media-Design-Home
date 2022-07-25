@@ -1,0 +1,127 @@
+*{
+	margin: 0px%;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-height: 24px;
+	height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+}
+.a{
+	text-align: center;
+	color: green;
+}
+.green{
+	width: 600px;
+	height: 300px;
+	background: green;
+	position: relative;
+
+}
+.red{
+	width: 200px;
+	height: 200px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	top: 15%;
+	left: 32%;
+}
+.green .fb{
+	width: 180px;
+	position: fixed;
+	right: -125px;
+	top: 26%;
+	transition: 1s;
+}
+.green .fb:hover{
+	right: 2px;
+	cursor: pointer;
+}
+.green .twi{
+	width: 180px;
+	position: fixed;
+	right: -125px;
+	top: 50%;
+	transition: 1s;
+}
+.green .twi:hover{
+	right: 2px;
+	cursor: pointer;
+}
+.green .yt{
+	width: 180px;
+	position: fixed;
+	right: -125px;
+	top: 35%;
+	transition: 1s;
+}
+.green .yt:hover{
+	right: 2px;
+	cursor: pointer;
+}
+.green .li{
+	width: 180px;
+	position: fixed;
+	right: -125px;
+	top: 87%;
+	transition: 1s;
+}
+.green .li:hover{
+	right: 2px;
+	cursor: pointer;
+}
+.green .te{
+	width: 180px;
+	position: fixed;
+	right: -125px;
+	top: 70%;
+	transition: 1s;
+}
+.green .te:hover{
+	right: 2px;
+	cursor: pointer;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 40px 0px;
+
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+
+
+}
+.social-icons li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	background: #000;
+	border-radius: 100%;
+	border: 2px solid #000;
+	font-size: 25px;
+	margin: 0px 20px;
+	color: #fff;
+	transition: 1s;
+}
+.social-icons li a:hover{
+	background:transparent;
+	color: #000;
+	border-radius: #000;
+}
+
+.social-icons li a:focus{
+	background:transparent;
+	color: #000;
+	border-radius: #000;
+}
